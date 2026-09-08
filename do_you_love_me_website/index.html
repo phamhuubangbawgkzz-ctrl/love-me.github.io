@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bạn có yêu tôi không?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="question-screen" class="card">
+        <h1 class="title">Bạn có yêu tôi không?</h1>
+        <div class="character-wrap melody-wrap" aria-label="Melody dễ thương">
+          <div class="sparkle sparkle-1">✦</div>
+          <div class="sparkle sparkle-2">♡</div>
+          <img src="melody.jpg" alt="Melody dễ thương" class="melody-image">
+          <div class="character-heart">♥</div>
+        </div>
+        <div class="buttons">
+          <button id="yes-btn" class="btn btn-yes">Có</button>
+          <button id="no-btn" class="btn btn-no">Không</button>
+        </div>
+      </div>
+
+      <div id="success-screen" class="hidden">
+        <h1 class="success-message">Tôi biết mà! ❤️</h1>
+        <div class="character-wrap melody-wrap" aria-label="Melody dễ thương">
+          <div class="sparkle sparkle-1">✦</div>
+          <div class="sparkle sparkle-2">♡</div>
+          <img src="melody.jpg" alt="Melody dễ thương" class="melody-image">
+          <div class="character-heart">♥</div>
+        </div>
+        <p class="sub-text">Bạn đã lựa chọn đúng!</p>
+        <div class="love-notes" aria-label="Những lời yêu thương">
+          <span>iu cún&gt;&lt;</span>
+          <span>Vợ iuuu</span>
+          <span>iu em mi&gt;&lt;</span>
+          <span>iu ebe mi</span>
+        </div>
+        <div id="floating-photos" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- Khu vực trái tim bay -->
+    <div id="hearts-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
